@@ -171,7 +171,47 @@ nav{
     position: absolute;
 } */
 
-
+/* text cta */
+.question{
+    width: 75%;
+    color: #321a18;
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.question h1{
+    font-size: 90px;
+}
+.question h2{
+    margin: 10px 0 10px;
+    font-size: 30px;
+    color: bisque;
+    font-size: 50px;
+}
+.question h3{
+    font-size: 40px;
+}
+/* inquire button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: bisque;
+    border: 3px solid #321a18;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 2vh;
+}
+.btn:hover{
+    border: 3px solid #321a18;
+    background: bisque;
+    color: #321a18;
+}
 
 /* MEDIA WIDTH */
 @media screen and (max-width: 598px) {
@@ -192,4 +232,14 @@ nav{
         top: 1150px;
         left: 0px;
     }
+}
+/* UNDER CONSTRUCTION */
+.site{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/site.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
