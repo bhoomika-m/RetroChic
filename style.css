@@ -120,9 +120,9 @@ nav{
 /* textbox */
 .text-box{
     width: 75%;
-    color: #321a18;
+    color: black;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -130,9 +130,51 @@ nav{
 .text-box h1{
     font-size: 90px;
 }
+/* quiz call to action in index page */
+.cta{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient( rgba(159, 226, 191, 1),rgba(167, 199, 231, 1));
+    display: flex;
+    flex-direction: column;
+
+}
+/* stickers */
+.happy{
+    width: 43vh;
+    top: 830px;
+    left: 40px;
+    position: absolute;
+}
+/* .face:nth-child(1){
+    width: 10vh;
+    position: absolute;
+}
+ .face:nth-child(2){
+    width: 10vh;
+    position: absolute;
+}
+.face:nth-child(3){
+    width: 10vh;
+    position: absolute;
+}
+.face:nth-child(4){
+    width: 10vh;
+    position: absolute;
+}
+.face:nth-child(5){
+    width: 10vh;
+    position: absolute;
+}
+.face:nth-child(6){
+    width: 10vh;
+    position: absolute;
+} */
+
+
 
 /* MEDIA WIDTH */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 598px) {
     .sidenav {padding-top: 30px;}
     .sidenav a {font-size: 28px;}
     .sidenav .closebtn{font-size: 50px;}
@@ -141,6 +183,13 @@ nav{
     }
     .logo{width: 150px;}
     .text-box h1{
-        font-size: 50px;
+        font-size: 60px;
+    }
+    .cta{height: 30vh;}
+    .happy{
+        position: absolute;
+        width: 250px;
+        top: 1150px;
+        left: 0px;
     }
 }
