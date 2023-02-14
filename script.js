@@ -8,5 +8,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
   }
-  // about me
+  // about me (index.html, script tag)
+
+  // API EMAIL under email.js
   

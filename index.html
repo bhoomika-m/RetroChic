@@ -4,6 +4,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Retro Chic</title>
       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <script src="https://kit.fontawesome.com/211365ae2c.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="style.css">
       <script src="script.js"></script>
   </head>
@@ -75,6 +76,38 @@
             loop: true
         })
       </script>
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <h3>LINKS</h3>
+        <a href="Contact.html">Contact</a>
+        <a href="https://www.instagram.com/"></a><i class="fa-brands fa-instagram"></i>
+        <a href="https://twitter.com/?lang=en"></a><i class="fa-brands fa-twitter"></i>
+        <a href="https://www.amazon.sg/"></a><i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <div id="add-update-msg">
+          <div class="alert alert-success" role="alert"></div>
+        </div>
+        <div class="form" id="add-contact">
+          <form id="add-contact-form">
+            <div class="form-group">
+            <!-- <label for="email-updates"></label> -->
+              <input type="email" id="email-updates" class="form-control" required>
+              <small id="contact-email-help" class="form-text text-muted"></small>
+            </div>
+              <input type="submit" value="Send" class="btnemail" id="contact-submit">
+          </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+      </div>
+      <div class="col-3">
+        <h3>LOCATION</h3>
+        <p>Daily: 10am-12pm</p>
+        <p>#01-01, 13 Marina South Avenue,<br>Singapore 436338<br></p>
+      </div>
     </div>
   </body>
 
