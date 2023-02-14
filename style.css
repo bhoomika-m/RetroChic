@@ -14,6 +14,8 @@
     position: relative;
     overflow: hidden;
 }
+
+
 /* logo */
 .logo{
     width: 110px;
@@ -27,6 +29,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+
 /* side nav content */
 .sidenav{
     height: 100%;
@@ -69,6 +73,8 @@ nav{
     transition: margin-left .5s;
     padding: 16px;
 }
+
+
 /* lightning animation */
 .lightning img{
     width: 110px;
@@ -124,23 +130,25 @@ nav{
     color: black;
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 .text-box h1{
     font-size: 120px;
+    white-space: nowrap;
 }
 .text-box p{
     font-size: 50px;
 }
+
+
 /* items */
 .items h1{
     text-align: center;
     font-size: 60px;
 }
 .items{
-    margin-top: 50px;
     background: lavender;
     --gap: 16px;
     --nums-cols: 3;
@@ -148,7 +156,8 @@ nav{
 }
 .items img{
     width: 300px;
-    /* display: flex; */
+    display: flex;
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -157,8 +166,8 @@ nav{
 /* image transition */
 .items img:hover{
     transform: scale(1.3);
-
 }
+
 
 /* quiz call to action in index page */
 .cta{
@@ -211,6 +220,8 @@ nav{
     background: #9370DB;
     color: lavender;
 }
+
+
 /* about me */
 .about-me{
     width: 100%;
@@ -280,6 +291,67 @@ nav{
     margin-bottom: 40px;
     outline: none;
 }
+
+
+
+
+
+/* LOGIN.HTML */
+.log{
+    width: 100%;
+    height: 100vh;
+    background: #9BD3DD;
+    position: relative;
+}
+.log .box{
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%,-50%);
+    background-color: white;
+    padding: 25px 25px 45px 25px;
+    border-radius: 20px;
+}
+.box h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.box h2::before{
+    position: absolute;
+    content: '';
+    width: 55px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #9BD3DD;
+    bottom: -8px;
+}
+.input-signup{
+    width: 100%;
+}
+.box .input-signup input[type="text"]{
+    width: 100%;
+    font-size: 25px;
+    margin: 16px 0px;
+    outline: none;
+    border-width: 0px 0px 2px 0px;
+    border-color: #6F8FAF;
+}
+.box .input-signup label{
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    font-size: 25px;
+    color: #202A44;
+    pointer-events: none;
+}
+
+
+
+
+
 /* SITE.HTML */
 .site{
     min-height: 100vh;
