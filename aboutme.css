@@ -1,0 +1,53 @@
+/* FOOTER */
+.footer{
+    margin-top: 200px;
+    width: 90%;
+    padding: 100px 5%;
+    background: #202A44;
+    color: white;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 1;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.btnemail {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 8px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 1.5vh;
+}
+.btnemail:hover{
+    border: 3px solid #9BD3DD;
+    background: #9BD3DD;
+    color: #202A44;
+}
+.form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+}

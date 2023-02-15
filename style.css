@@ -38,6 +38,7 @@ nav{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 50px;
+    
 } 
 .sidenav a{
     padding: 8px 8px 8px 32px;
@@ -182,6 +183,8 @@ nav{
 }
 .over-one h2{
     font-size: 25px;
+    color: black;
+    text-decoration: none;
 }
 .over-two{
     height: 450px;
@@ -199,6 +202,8 @@ nav{
 }
 .over-two h2{
     font-size: 25px;
+    color: black;
+    text-decoration: none;
 }
 .over-three{
     height: 450px;
@@ -216,6 +221,8 @@ nav{
 }
 .over-three h2{
     font-size: 25px;
+    color: black;
+    text-decoration: none;
 }
 /* quiz call to action in index page */
 .cta{
@@ -304,17 +311,20 @@ nav{
 .quiz-home{
     justify-content: baseline;
     align-items: center;
-    left: 20%;
     position: absolute;
     font-size: 70px;
-    color: white;
+    color: #5F8575;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .quiz-btn{
     padding-bottom: 300px;
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 3px solid white;
+    color: #5F8575;
+    border: 3px solid #5F8575;
     padding: 8px 34px;
     font-size: 50px;
     background: transparent;
@@ -323,61 +333,16 @@ nav{
     transition: 0.5s;
     top: 1.5vh;
 }
+.quiz-home h1{
+    justify-content: center;
+    align-content: center;
+}
 
 
 
 
 /* LOGIN.HTML */
-.log{
-    width: 100%;
-    height: 100vh;
-    background: #9BD3DD;
-    position: relative;
-}
-.log .box{
-    position: absolute;
-    width: 350px;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%,-50%);
-    background-color: white;
-    padding: 25px 25px 45px 25px;
-    border-radius: 20px;
-}
-.box h2{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-    position: relative;
-}
-.box h2::before{
-    position: absolute;
-    content: '';
-    width: 55px;
-    height: 5px;
-    border-radius: 50px;
-    background-color: #9BD3DD;
-    bottom: -8px;
-}
-.input-signup{
-    width: 100%;
-}
-.box .input-signup input[type="text"]{
-    width: 100%;
-    font-size: 25px;
-    margin: 16px 0px;
-    outline: none;
-    border-width: 0px 0px 2px 0px;
-    border-color: #6F8FAF;
-}
-.box .input-signup label{
-    position: absolute;
-    left: 25px;
-    top: 120px;
-    font-size: 25px;
-    color: #202A44;
-    pointer-events: none;
-}
+
 
 
 
@@ -395,59 +360,6 @@ nav{
 
 
 
-/* FOOTER */
-.footer{
-    margin-top: 30px;
-    width: 90%;
-    padding: 100px 5%;
-    background: #202A44;
-    color: white;
-    display: flex;
-}
-.footer div{
-    text-align: center;
-}
-.col-2{
-    flex-grow: 1;
-}
-.footer div h3{
-    font-weight: 300;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
-.col-1 a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 10px;
-}
-.btnemail {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 3px solid white;
-    padding: 8px 34px;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-}
-.btnemail:hover{
-    border: 3px solid #9BD3DD;
-    background: #9BD3DD;
-    color: #202A44;
-}
-.form input{
-    width: 400px;
-    height: 45px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    outline: none;
-}
 
 
 
