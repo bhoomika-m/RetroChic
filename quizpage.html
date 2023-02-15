@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Retro Chic</title>
+  <link href="quiz.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class='quiz-box custom-box'>
+    <div class='question-number'>
+      
+    </div>
+    <div class='question-text'>
+      
+    </div>
+    <div class='option-container'>
+ 
+    </div>
+    <div class='next-qn-btn'>
+      <button type='button' class='btn' onclick="next()">Next</button>
+    </div>
+    <div class='answers-indicator'>
+ 
+    </div>
+    
+  </div>
+
+  <div class='result-box custom-box hide'>
+    <h1> Quiz Result</h1>
+    <table>
+      <tr> 
+        <td> Total Questions</td>
+        <td> <span class='total-question'>30</span></td>
+      </tr>
+      <tr> 
+        <td> Correct </td>
+        <td> <span class='total-correct'></span></td>
+      </tr>
+      <tr> 
+        <td> Wrong </td>
+        <td> <span class='total-wrong'></span></td>
+      </tr>
+      <tr> 
+        <td> Total Score </td>
+        <td> <span class='total-score'></span></td>
+      </tr>
+    </table>
+    <button type='button' class='btn' onclick='tryAgain()'> Try again </button>
+    <button type='button' class='share-button'> Share </button>
+  <div class=' overlay'>
+  <div class=' share'>
+    <button class= 'close-button'> x </button>
+    <h2> Share now</h2>
+    <p> ‎</p>
+   
+      
+      <button class='social-buttons' onclick="window.location.href='https://twitter.com/home?lang=en';"> Twitter </button>
+      <button class= 'social-buttons' window.location.href='https://www.facebook.com/'> Facebook </button>
+    
+    <p> ‎</p>
+    <input type="text" value="www.retrochic.sg.com" id="myInput">
+    <button onclick="copyLink()">Copy text</button>
+  </div>
+  </div>
+  <div class="home-btn">
+    <a href="index.html" class="home-btn">Go home</a>
+  </div> 
+   
+ 
+  <script src="quiz.js"></script>
+  <script src='share.js'></script>
+  <script src='app.js'></script>
+
+ 
+</body>
+
+</html>
