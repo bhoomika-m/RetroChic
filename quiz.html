@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Retro Chic</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <script src="https://kit.fontawesome.com/211365ae2c.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!--landing page-->
+    <section class="quizheader">
+      <div class="nav">
+        <!--logo-->
+        <img src="images/logo.png" alt="logo" class="logo">
+      </div>
+      <!--side nav content-->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="homeloading.html">Home</a>
+        <a href="aboutloading.html">About</a>
+        <a href="quizloading.html">Quiz</a>
+        <a href="contactloading.html">Contact</a>
+        <a href="loginloading.html">Register<br>Login</a>
+      </div>
+      <!--hamburger menu-->
+      <div class="topright">
+        <div id="main">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+      </div>
+
+      <!--Quiz starting-->
+      <div class="quiz-home">
+            <h1>Ready to take the quiz?</h1>
+            <a href="quizpage.html" class="quiz-btn">Let's go!</a>
+      </div>
+
+
+      <!--footer-->
+      <div class="footer">
+        <div class="col-1">
+          <h3>LINKS</h3>
+          <a href="Contact.html">Contact</a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.amazon.sg/"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="col-2">
+          <h3>NEWSLETTER</h3>
+          <div id="add-update-msg">
+            <div class="alert alert-success" role="alert"></div>
+          </div>
+          <div class="form" id="add-contact">
+            <form id="add-contact-form">
+              <div class="form-group">
+              <!-- <label for="email-updates"></label> -->
+                <input type="email" id="email-updates" class="form-control" required>
+                <small id="contact-email-help" class="form-text text-muted"></small>
+              </div>
+                <input type="submit" value="Send" class="btnemail" id="contact-submit">
+            </form>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="email.js"></script>
+        </div>
+        <div class="col-3">
+          <h3>LOCATION</h3>
+          <p>Daily: 10am-12pm</p>
+          <p>#01-01, 13 Marina South Avenue,<br>Singapore 436338<br></p>
+        </div>
+      </div>
+    </body>
+  
+  </html>
