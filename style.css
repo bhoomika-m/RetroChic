@@ -38,8 +38,7 @@ nav{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 50px;
-    
-} 
+}
 .sidenav a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -86,17 +85,17 @@ nav{
     0%{
         transform: translateY(0);
         opacity: 0;
-    }
+   }
     50%{
         opacity: 1;
-    }
+   }
     70%{
         opacity: 1;
-    }
+   }
     100%{
         transform: translateY(-80vh);
         opacity: 0;
-    }
+   }
 }
 .lightning img:nth-child(1){
     animation-delay: 2s;
@@ -119,8 +118,8 @@ nav{
 .lightning img:nth-child(7){
     animation-delay: 5s;
 }
-/* textbox */       
-.text-box{ 
+/* textbox */
+.text-box{
     color: black;
     position: absolute;
     top: 30%;
@@ -232,7 +231,6 @@ nav{
     display: flex;
     flex-direction: column;
     position: absolute;
-
 }
 /* text cta */
 .question{
@@ -273,11 +271,6 @@ nav{
     background: #9370DB;
     color: lavender;
 }
-
-
-
-
-
 /* ABOUTME.HTML */
 /* background */
 .about-h{
@@ -299,11 +292,6 @@ nav{
     color: #9370DB;
 }
 /* content */
-
-
-
-
-
 /* QUIZ.HTML */
 .quizheader{
     background: url(images/backgroundquiz.png);
@@ -337,16 +325,7 @@ nav{
     justify-content: center;
     align-content: center;
 }
-
-
-
-
 /* LOGIN.HTML */
-
-
-
-
-
 /* LOADING */
 .animation-center{
     justify-content: center;
@@ -356,15 +335,6 @@ nav{
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
 /* SITE.HTML */
 .site{
     min-height: 100vh;
@@ -375,123 +345,114 @@ nav{
     position: relative;
     overflow: hidden;
 }
-
-
-
-
 /* MEDIA WIDTH */
 @media screen and (max-width: 598px) {
-    /* INDEX.HTML */
-    /* side nav */ 
+   /* INDEX.HTML */
+   /* side nav */
     .sidenav {
         padding-top: 30px;
         width: 200px;
-    }
-    .sidenav a {font-size: 28px;}
-    .sidenav .closebtn{font-size: 50px;}
-    .topright{font-size: 30px;
-    top: 25px;
-    }
-    .logo{width: 150px;}
+   }
+    .sidenav a {
+       font-size: 28px;
+   }
+    .sidenav .closebtn{
+       font-size: 50px;
+   }
+    .topright{
+       font-size: 30px;
+        top: 25px;
+   }
+    .logo{
+       width: 150px;
+   }
     .text-box{
         left: 50%;
-    }
+   }
     .text-box h1{
         font-size: 60px;
         text-align: center;
-    }
+   }
     .text-box p{
         text-align: center;
         top: 30vh;
-    }
-    /* store */
+   }
+   /* store */
     .items-row{
         flex-direction: column;
         justify-content: center;
         display: flex;
         align-items: center;
-    }
+   }
     .items-row img{
         height: 400px;
         padding-top: 40px;
         padding-bottom: 40px;
-    }
+   }
     .over-one{
         height: 400px;
         left: -95px;
         top: 60px;
-    }
+   }
     .over-one a{
         text-decoration: none;
-    }
+   }
     .over-two{
         height: 400px;
         left: -95px;
         top: 540px;
-    }
+   }
     .over-three{
         height: 400px;
         left: -95px;
         top: 1020px;
-    }
-    /* call to action */
+   }
+   /* call to action */
     .cta{
         height: 25vh;
-    }
+   }
     .question{
         text-align: center;
         left: 50%;
         top: 45%;
         color: black;
-        
-    }
+   }
     .question h1{
         font-size: 60px;
-    }
+   }
     .question h2{
         font-size: 35px;
-    }
+   }
     .question h3{
         font-size: 25px;
-    }
+   }
     .btn{
         padding: 8px 20px;
         font-size: 15px;
         top: 1vh;
-    }  
-
-
-    /* ABOUTME.HTML */
+   }
+   /* ABOUTME.HTML */
     .about-me h1{
         font-size: 80px;
         font-weight: 550;
-    }
-  
-
-    /* QUIZ.HTML */
+   }
+   /* QUIZ.HTML */
     .quiz-home{
         left: 50%;
         padding-top: 10%;
         font-size: 50px;
-        
-    }
+   }
     .quiz-btn{
         padding: 6px 24px;
         font-size: 40px;
-    }
-
-
-    /* SITE.HTML*/
+   }
+   /* SITE.HTML*/
     .site{
         background-image: url(images/sitehome.png);
-    }
-
-
-    /* FOOTER */
+   }
+   /* FOOTER */
     .footer{
         padding-top: 300px;
-    }
-
-  
+   }
 }
 

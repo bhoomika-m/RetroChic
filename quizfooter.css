@@ -52,16 +52,23 @@
     outline: none;
 }
 @media screen and (max-width: 598px) {
-    /* INDEX.HTML */
-    /* side nav */ 
+   /* INDEX.HTML */
+   /* side nav */
     .sidenav {
         padding-top: 30px;
         width: 200px;
-    }
-    .sidenav a {font-size: 28px;}
-    .sidenav .closebtn{font-size: 50px;}
-    .topright{font-size: 30px;
-    top: 25px;
-    }
-    .logo{width: 150px;}
+   }
+    .sidenav a {
+       font-size: 28px;
+   }
+    .sidenav .closebtn{
+       font-size: 50px;
+   }
+    .topright{
+       font-size: 30px;
+        top: 25px;
+   }
+    .logo{
+       width: 150px;
+   }
 }

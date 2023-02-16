@@ -27,8 +27,7 @@ nav{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 50px;
-    
-} 
+}
 .sidenav a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -58,12 +57,7 @@ nav{
     transition: margin-left .5s;
     padding: 16px;
 }
-
-
-
-
-
-  .contact-page{
+.contact-page{
     overflow: hidden;
     max-width: 390px;
     background: #fff;
@@ -73,13 +67,12 @@ nav{
     margin-top: 250px;
     margin-left: 480px;
     background-color: blanchedalmond;
-  }
-  .contact-page .title{
+}
+.contact-page .title{
     display: flex;
     width: 200%;
-  }
-  
-  .form-group{
+}
+.form-group{
     display: inline-block;
     text-decoration: none;
     padding: 8px 34px;
@@ -88,8 +81,8 @@ nav{
     cursor: pointer;
     transition: 0.5s;
     top: 1.5vh;
-  }
-  .add-contact-form{
+}
+.add-contact-form{
     display: inline-block;
     text-decoration: none;
     padding: 8px 34px;
@@ -100,8 +93,8 @@ nav{
     top: 1.5vh;
     display: flex;
     flex-direction: column;
-  }
-  .form-group-register{
+}
+.form-group-register{
     display: inline-block;
     text-decoration: none;
     padding: 8px 34px;
@@ -110,41 +103,36 @@ nav{
     cursor: pointer;
     transition: 0.5s;
     top: 1.5vh;
-  }
-  .btn btn-primary{
+}
+.btn btn-primary{
     display: inline-block;
-      text-decoration: none;
-      color: white;
-      border: 3px solid white;
-      padding: 8px 34px;
-      font-size: 20px;
-      background: transparent;
-      position: relative;
-      cursor: pointer;
-      transition: 0.5s;
-      top: 1.5vh;
-  }
-  .login-button{
-    display: inline-block;
-      text-decoration: none;
-      color: white;
-      border: 3px solid white;
-      padding: 8px 34px;
-      font-size: 20px;
-      background: transparent;
-      position: relative;
-      cursor: pointer;
-      transition: 0.5s;
-      top: 1.5vh;
-  }
-  .other{
     text-decoration: none;
-  }
-
-
-
-
-
+    color: white;
+    border: 3px solid white;
+    padding: 8px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 1.5vh;
+}
+.login-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 8px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 1.5vh;
+}
+.other{
+    text-decoration: none;
+}
 /* FOOTER */
 .footer{
     margin-top: 200px;
@@ -198,19 +186,24 @@ nav{
     margin-bottom: 40px;
     outline: none;
 }
-
-
 @media screen and (max-width: 598px) {
-    /* INDEX.HTML */
-    /* side nav */ 
+   /* INDEX.HTML */
+   /* side nav */
     .sidenav {
         padding-top: 30px;
         width: 200px;
-    }
-    .sidenav a {font-size: 28px;}
-    .sidenav .closebtn{font-size: 50px;}
-    .topright{font-size: 30px;
-    top: 25px;
-    }
-    .logo{width: 150px;}
+   }
+    .sidenav a {
+       font-size: 28px;
+   }
+    .sidenav .closebtn{
+       font-size: 50px;
+   }
+    .topright{
+       font-size: 30px;
+        top: 25px;
+   }
+    .logo{
+       width: 150px;
+   }
 }

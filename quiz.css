@@ -3,14 +3,12 @@ body{
   font-size:16px;
   background-color: #009688;
 }
-
 *{
   box-sizing: border-box;
   margin:0;
   padding:0;
   outline: none ;
 }
-
 .custom-box{
   max-width: 700px;
   background-color: #ffffff;
@@ -18,24 +16,19 @@ body{
   padding: 30px ;
   border-radius: 10px;
 }
-
-.custom-box ::before,
-.custom-box::after{
+.custom-box ::before, .custom-box::after{
   content:'';
   clear: both;
   display: table;
 }
-
 .hide{
   display: none;
-} 
-
+}
 .home-box h3{
   font-size: 19px;
   color: #000000;
   font-weight: 500;
   margin-bottom: 0px;
-  
 }
 .home-box p{
   font-size: 16px;
@@ -53,18 +46,12 @@ body{
   cursor: pointer;
   display: inline-block;
 }
-
-.quiz-box .question-number,
-.quiz-box .question-text,
-.quiz-box .option-container,
-.quiz-box .next-qn-btn,
-.quiz-box .answers-indicator{
+.quiz-box .question-number, .quiz-box .question-text, .quiz-box .option-container, .quiz-box .next-qn-btn, .quiz-box .answers-indicator{
   width: 100%;
   float:left;
 }
-
 .quiz-box .question-number{
-  font-size:18px ; 
+  font-size:18px ;
   color: #009688;
   font-weight:600;
   border-bottom: 1px solid #cccc;
@@ -78,9 +65,7 @@ body{
   font-weight: 400;
   padding: 20px 0;
   margin: 0;
-  
 }
-
 .quiz-box .btn{
   margin: 10px 0;
 }
@@ -99,19 +84,17 @@ body{
   position: relative;
   overflow: hidden;
 }
-
 .quiz-box .option-container .option.already-answered{
   pointer-events: none;
 }
 @keyframes fadeIn{
   0%{
-    opacity:0;
-  }
+      opacity:0;
+ }
   100%{
-    opacity:1;
-  }
+      opacity:1;
+ }
 }
-
 .quiz-box .option-container .option.correct::before{
   content: '';
   position: absolute;
@@ -123,20 +106,17 @@ body{
   z-index: -1;
   animation:slideInLeft 0.5s ease forwards;
 }
-
 @keyframes slideInLeft{
   0%{
-    transform: translateX(-100%);
-  }
+      transform: translateX(-100%);
+ }
   100%{
-    transform: trasnlateX(0%);
-  }
+      transform: trasnlateX(0%);
+ }
 }
-
 .quiz-box .option-container .option.correct{
   color:#ffffff;
 }
-
 .quiz-box .option-container .option.wrong::before{
   content: '';
   position: absolute;
@@ -148,24 +128,20 @@ body{
   z-index: -1;
   animation:slideInLeft 0.5s ease forwards;
 }
-
 @keyframes slideInLeft{
   0%{
-    transform: translateX(-100%);
-  }
+      transform: translateX(-100%);
+ }
   100%{
-    transform: trasnlateX(0%);
-  }
+      transform: trasnlateX(0%);
+ }
 }
-
 .quiz-box .option-container .option.wrong{
   color:#ffffff;
 }
-
 .quiz-box .answers-indicator{
   border-top: 1px solid #cccc;
 }
-
 .quiz-box .answers-indicator div{
   height: 40px;
   width: 40px;
@@ -175,20 +151,18 @@ body{
   margin-right: 4px;
   margin-top: 15px;
 }
-
 .result-box{
   text-align:center;
 }
 .result-box h1{
   font-size: 36px;
   line-height: 42px;
-  color: #009688
+  color: #009688 
 }
 .result-box table{
   width: 100%;
   border-collapse: collapse;
   margin: 30px 0;
-  
 }
 .result-box table td{
   border: 1px solid #cccccc;
@@ -197,22 +171,17 @@ body{
   width: 50%;
   text-align: left;
   font-size: 18px;
-  
 }
-
 .result-box .btn{
   margin-right: 20px;
 }
 .share, .overlay{
   display: none;
-} 
-
+}
 .show-share{
   display: block ;
-} 
-
+}
 .share-button{
-  
   padding: 15px 45px;
   background-color: #009688;
   color:#ffffff;
@@ -220,7 +189,6 @@ body{
   border-radius: 5px;
   cursor: pointer;
   display: inline-block;
-
 }
 .overlay {
   opacity: 1;
@@ -243,7 +211,6 @@ body{
   background: white;
 }
 .home-btn{
-  
   padding: 6.85px 13px;
   background-color: #009688;
   color:#ffffff;
@@ -254,11 +221,8 @@ body{
   margin-left: 20px;
   text-decoration: none;
   text-align: center;
-
 }
-
 .social-buttons{
-  
   padding: 5px 10px;
   background-color: #009688;
   color:#ffffff;
@@ -267,36 +231,38 @@ body{
   cursor: pointer;
   display: inline-block;
   position: aboslute;
-  
 }
 .close-button{
   border:none;
   background-color: #ffffff;
   cursor: pointer;
   position: absolute;
-
   left: 20px;
-  
 }
-
-
 @media screen and (max-width: 598px) {
-  /* INDEX.HTML */
-  /* side nav */ 
+ /* INDEX.HTML */
+ /* side nav */
   .sidenav {
       padding-top: 30px;
       width: 200px;
-  }
-  .sidenav a {font-size: 28px;}
-  .sidenav .closebtn{font-size: 50px;}
-  .topright{font-size: 30px;
-  top: 25px;
-  }
-  .logo{width: 150px;}
+ }
+  .sidenav a {
+     font-size: 28px;
+ }
+  .sidenav .closebtn{
+     font-size: 50px;
+ }
+  .topright{
+     font-size: 30px;
+      top: 25px;
+ }
+  .logo{
+     width: 150px;
+ }
   body{
-    padding: 15px;
-  }
+      padding: 15px;
+ }
   *{
-    padding-top: 10%;
-  }
+      padding-top: 10%;
+ }
 }
