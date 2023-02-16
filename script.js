@@ -12,6 +12,9 @@ function openNav() {
   // about me (index.html, script tag)
 
   // API EMAIL under email.js
-  closeNav();
 
-  console.log("abc");
+
+  window.addEventListener("load", function(){
+    console.log("abc");
+    closeNav();
+  });

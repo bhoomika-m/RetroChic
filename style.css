@@ -421,6 +421,9 @@ nav{
         left: -95px;
         top: 60px;
     }
+    .over-one a{
+        text-decoration: none;
+    }
     .over-two{
         height: 400px;
         left: -95px;
@@ -467,7 +470,14 @@ nav{
 
     /* QUIZ.HTML */
     .quiz-home{
-        left: 16%;
+        left: 50%;
+        padding-top: 10%;
+        font-size: 50px;
+        
+    }
+    .quiz-btn{
+        padding: 6px 24px;
+        font-size: 40px;
     }
 
 
