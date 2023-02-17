@@ -5,7 +5,7 @@
 }
 /* logo */
  .header{
-    height: 280vh;
+    height: 300vh;
      width: 100%;
      background-color: #c2e1eb;
 }
@@ -340,5 +340,8 @@ nav{
     .start p{
         transform: translate(0%,300%);
         font-size: 30px;
+   }
+   .header{
+    height: 180vh;
    }
 }
