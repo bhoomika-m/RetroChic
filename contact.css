@@ -5,7 +5,7 @@
 }
 /* logo */
  .header{
-     min-height: 100vh;
+    height: 280vh;
      width: 100%;
      background-color: #c2e1eb;
 }
@@ -72,7 +72,7 @@
      letter-spacing: 2px;
      color: #E37383;
      transform: translate(30%,50%);
-     font-size: 80px;
+    
 }
  .start p{
      letter-spacing: 2px;
@@ -99,63 +99,11 @@
      font-size: 40px;
      color: white;
 }
- .form-group-2{
+ .form-group{
      display: flex;
      flex-direction: column;
 }
-/* FOOTER */
- .footer{
-     margin-top: 10%;
-     width: 90%;
-     padding: 100px 5%;
-     background: #202A44;
-     color: white;
-     display: flex;
-}
- .footer div{
-     text-align: center;
-}
- .col-2{
-     flex-grow: 1;
-}
- .footer div h3{
-     font-weight: 300;
-     margin-bottom: 30px;
-     letter-spacing: 1px;
-}
- .col-1 a{
-     display: block;
-     text-decoration: none;
-     color: white;
-     margin-bottom: 10px;
-}
- .btnemail {
-     display: inline-block;
-     text-decoration: none;
-     color: white;
-     border: 3px solid white;
-     padding: 8px 34px;
-     font-size: 20px;
-     background: transparent;
-     position: relative;
-     cursor: pointer;
-     transition: 0.5s;
-     top: 1.5vh;
-}
- .btnemail:hover{
-     border: 3px solid #9BD3DD;
-     background: #9BD3DD;
-     color: #202A44;
-}
- .form input{
-     width: 400px;
-     height: 45px;
-     border-radius: 4px;
-     text-align: center;
-     margin-top: 20px;
-     margin-bottom: 40px;
-     outline: none;
-}
+
  @media screen and (max-width: 598px) {
     /* INDEX.HTML */
     /* side nav */
@@ -182,9 +130,7 @@
          padding: 40px;
          border-radius: 10px;
     }
-     .footer{
-         margin-top: 20% 
-    }
+  
      .start h1{
          transform: translate(15%,50%);
          font-size: 60px;

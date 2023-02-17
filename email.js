@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const APIKEY = "63ec8821478852088da682a2";
+  const APIKEY = "63db6c8e3bc6b255ed0c4575";
    getContacts();
    $("#update-contact-container").hide();
    $("#add-update-msg").hide();
@@ -21,7 +21,7 @@ $(document).ready(function () {
      let settings = {
        "async": true,
        "crossDomain": true,
-       "url": "https://retrochic-b302.restdb.io/rest/emailupdates",
+       "url": "https://retrochic-7b8b.restdb.io/rest/emailupdates",
        "method": "POST", //[cher] we will use post to send info
        "headers": {
          "content-type": "application/json",
@@ -57,7 +57,7 @@ $(document).ready(function () {
      let settings = {
        "async": true,
        "crossDomain": true,
-       "url": "https://retrochic-b302.restdb.io/rest/emailupdates",
+       "url": "https://retrochic-7b8b.restdb.io/rest/emailupdates",
        "method": "GET", //[cher] we will use GET to retrieve info
        "headers": {
          "content-type": "application/json",

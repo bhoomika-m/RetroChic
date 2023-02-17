@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Oswald', sans-serif;
 }
+.loginheader{
+    background: #ffd0d7;
+    background-image: url(images/login.png);
+    height: 110vh;
+}
 /* logo */
 .logo{
     width: 110px;
@@ -57,153 +62,64 @@ nav{
     transition: margin-left .5s;
     padding: 16px;
 }
-.contact-page{
-    overflow: hidden;
-    max-width: 390px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
-    margin-top: 250px;
-    margin-left: 480px;
-    background-color: blanchedalmond;
-}
-.contact-page .title{
+.login-container{
+    justify-content: center;
     display: flex;
-    width: 200%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6F8FAF;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    transform: translate(62%,15%);
+}
+.login-container h3{
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 20px;
 }
 .form-group{
-    display: inline-block;
-    text-decoration: none;
-    padding: 8px 34px;
-    font-size: 20px;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-}
-.add-contact-form{
-    display: inline-block;
-    text-decoration: none;
-    padding: 8px 34px;
-    font-size: 20px;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-    display: flex;
+    padding: 20px;
     flex-direction: column;
-}
-.form-group-register{
-    display: inline-block;
-    text-decoration: none;
-    padding: 8px 34px;
-    font-size: 20px;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-}
-.btn btn-primary{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 3px solid white;
-    padding: 8px 34px;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-}
-.login-button{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 3px solid white;
-    padding: 8px 34px;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
-}
-.other{
-    text-decoration: none;
-}
-/* FOOTER */
-.footer{
-    margin-top: 200px;
-    width: 90%;
-    padding: 100px 5%;
-    background: #202A44;
-    color: white;
     display: flex;
 }
-.footer div{
-    text-align: center;
-}
-.col-2{
-    flex-grow: 1;
-}
-.footer div h3{
-    font-weight: 300;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
-.col-1 a{
-    display: block;
-    text-decoration: none;
+.login-container p{
+    letter-spacing: 2px;
     color: white;
-    margin-bottom: 10px;
 }
-.btnemail {
-    display: inline-block;
+.login-container a{
     text-decoration: none;
-    color: white;
-    border: 3px solid white;
-    padding: 8px 34px;
-    font-size: 20px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    transition: 0.5s;
-    top: 1.5vh;
+    color: rgb(83, 217, 217);
+    
 }
-.btnemail:hover{
-    border: 3px solid #9BD3DD;
-    background: #9BD3DD;
-    color: #202A44;
-}
-.form input{
-    width: 400px;
-    height: 45px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    outline: none;
-}
+
+
 @media screen and (max-width: 598px) {
-   /* INDEX.HTML */
-   /* side nav */
-    .sidenav {
-        padding-top: 30px;
-        width: 200px;
-   }
-    .sidenav a {
-       font-size: 28px;
-   }
-    .sidenav .closebtn{
-       font-size: 50px;
-   }
-    .topright{
-       font-size: 30px;
-        top: 25px;
-   }
-    .logo{
-       width: 150px;
-   }
-}
+    /* INDEX.HTML */
+    /* side nav */
+     .sidenav {
+         padding-top: 30px;
+         width: 200px;
+    }
+     .sidenav a {
+        font-size: 28px;
+    }
+     .sidenav .closebtn{
+        font-size: 50px;
+    }
+     .topright{
+        font-size: 30px;
+         top: 25px;
+    }
+     .logo{
+        width: 150px;
+    }
+    .login-container{
+        width: 90%;
+        transform: translate(0%,15%);
+       }
+    .loginheader{
+        height: 100vh;
+    }
+ }
