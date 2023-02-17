@@ -271,6 +271,28 @@ nav{
     background: #9370DB;
     color: lavender;
 }
+.timer{
+    background-color: #C1E1C1;
+}
+.timer p{
+
+   padding-top: 4%;
+   background-color: #C1E1C1;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   font-size: 90px;
+   padding-bottom: 4%;
+}
+.timer h1{
+    font-size: 50px;
+    padding-top: 20%;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+   letter-spacing: 4.5px;
+}
+
 /* ABOUTME.HTML */
 /* background */
 .about-h{
@@ -431,6 +453,25 @@ nav{
         font-size: 15px;
         top: 1vh;
    }
+   .timer p{
+        height: 200px ;
+       padding-top: 0%;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       font-size: 70px;
+       padding-bottom: 0%;
+    
+   }
+   .timer h1{
+    font-size: 50px;
+    padding-top: 55%;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+   letter-spacing: 3px;
+}
+  
    /* ABOUTME.HTML */
     .about-me h1{
         font-size: 80px;
