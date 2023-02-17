@@ -1,6 +1,6 @@
 /* FOOTER */
 .footer{
-    margin-top: 200px;
+    margin-top: 0px;
     width: 90%;
     padding: 100px 5%;
     background: #202A44;
@@ -50,6 +50,29 @@
     margin-top: 20px;
     margin-bottom: 40px;
     outline: none;
+}
+.about-content{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color:#f9bbd5;
+    padding: 7%;
+    letter-spacing: 2px;
+}
+.about-content h2{
+    font-size: 70px;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+    color: white;
+}
+.about-content p{
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+.about-content h4{
+    font-size: 30px;
 }
 @media screen and (max-width: 598px) {
    /* INDEX.HTML */
