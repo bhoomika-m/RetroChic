@@ -22,7 +22,7 @@
       if (navigator.share) {
         navigator.share({
           title: 'Retro chic quiz',
-          url: 'https://www.youtube.com/watch?v=MjB1Nyx6hns&t=584s'    
+          url: 'https://bhoomika-m.github.io/RetroChic/'    
         }).then(() => {
           console.log('Thanks for sharing!');
         })
